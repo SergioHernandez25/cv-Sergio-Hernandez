@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+    /* font family */
+    font-family: 'Quicksand', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+
+/* Clear floats after the columns */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    position: -webkit-sticky;
+    /* Safari */
+    position: sticky;
+    top: 0;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+li a:hover {
+    background-color: rgb(250, 161, 45);
+}
+
+.column-1 {
+    width: 100%;
+}
+
+.column-2 {
+    width: 50%;
+    float: left;
+}
+
+
+/* Reglas auxiliares */
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.relleno-lat {
+    padding-left: 9%;
+    padding-right: 9%;
+}
+
+.relleno-col {
+    padding: 10px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+footer {
+    padding-bottom: 5vh;
+    padding-top: 5vh;
+}
+
+#section-3 .iframe2 {
+    width: 75vh;
+    height: 40vh;
+}
+
+#section-3 .iframe1 {
+    width: 75vh;
+    height: 37vh;
+}
+
+#header {
+    text-align: center;
+    background-image: url("../img/Portada.jpg");
+    background-size: cover;
+    padding: 30vh 100px;
+}
+
+#header h2 {
+    margin-top: 0%;
+}
