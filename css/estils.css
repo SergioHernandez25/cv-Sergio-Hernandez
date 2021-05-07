@@ -22,7 +22,6 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: white;
     position: -webkit-sticky;
     /* Safari */
     position: sticky;
@@ -39,6 +38,7 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    border-radius: 3px;
 }
 
 li a:hover {
@@ -55,6 +55,16 @@ li a:hover {
 
 .column-2 {
     width: 50%;
+    float: left;
+}
+
+.column-3 {
+    width: 33, 33%;
+    float: left;
+}
+
+.column-4 {
+    width: 25%;
     float: left;
 }
 
@@ -85,23 +95,127 @@ footer {
     padding-top: 5vh;
 }
 
-#section-3 .iframe2 {
+#section-6 .iframe2 {
     width: 75vh;
     height: 40vh;
 }
 
 #section-3 .iframe1 {
-    width: 75vh;
-    height: 37vh;
+    height: 75vh;
 }
 
 #header {
     text-align: center;
-    background-image: url("../img/Portada.jpg");
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
     background-size: cover;
-    padding: 30vh 100px;
+    padding: 38vh 100px;
 }
 
 #header h2 {
     margin-top: 0%;
+}
+
+#section-5 img {
+    width: 50%;
+}
+
+#section-4 img {
+    width: 50%;
+    text-align: center;
+}
+
+#section-2 iframe {
+    height: 40vh;
+}
+
+#section-1 img {
+    width: 65vh;
+}
+
+#header {
+    color: black;
+    font-size: 4vh;
+}
+
+body {
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+}
+
+#section-6 iframe {
+    height: 40vh;
+}
+
+#section-7 i {
+    font-size: 50px;
+    padding-left: 8vh;
+}
+
+#section-5 img {
+    padding-left: 15vh;
+}
+
+#section-4 img {
+    padding-left: 15vh;
+}
+
+#section-1 {
+    font-size: 3vh;
+}
+
+#section-2 {
+    font-size: 3vh;
+}
+
+#section-4 {
+    font-size: 3vh;
+}
+
+#section-5 {
+    font-size: 3vh;
+}
+
+#section-6 {
+    font-size: 2vh;
+}
+
+#section-7 {
+    font-size: 2vh;
+}
+
+footer {
+    font-size: 2vh;
+}
+
+@media screen and (max-width: 850px) {
+    #header {
+        padding: 20px 30px;
+        height: 80vh;
+        font-size: 4vh;
+    }
+    .flex {
+        display: block;
+    }
+    .column-2 {
+        width: 100%;
+        float: left;
+    }
+    #section-1 img {
+        width: 100%;
+    }
+    #section-7 i {
+        padding-left: 0%;
+    }
+    #section-4 img {
+        width: 100%;
+        padding-right: 10vh;
+    }
+    #section-5 img {
+        width: 100%;
+        padding-right: 10vh;
+    }
+    #section-3 .iframe1 {
+        height: 50vh;
+    }
 }
